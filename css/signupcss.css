@@ -1,0 +1,116 @@
+body{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:gray;
+	font-family:sans-serif;
+}
+#wrapper{
+	width:100%;
+	height:auto;
+	background-color:#777777;
+}
+#header{
+	width:100%;
+	position:fixed;
+}
+#menu{
+	width:100%;
+	height:50px;
+	background-color:#1976d2;
+	float:left;
+	font-family:Sans-serif;
+}
+#menu ul
+{
+	float:right;
+	margin-top:0px;
+}
+#header ul a{
+	float:left;
+}
+#header ul li{
+	float:left;
+	list-style-type:none;
+	width:110px;
+	text-align:center;
+	padding-top:16px;
+	padding-bottom:16px;
+	font-family:sans-serif;
+	color:white;
+}
+#header ul li:hover
+{
+	background-color:white;
+	color:black;
+}
+#blank{
+	width:100%px;
+	height:50px;
+}
+#content
+{
+	width:100%;
+	height:550px;
+	background-color:#ececec;
+}
+#left{
+	width:30%;
+	height:550px;
+	float:left;
+	margin-left:5%;
+}
+#left form
+{
+	width:200px;
+	height:400px;
+	margin-left:50px;
+	margin-top:50px;
+}
+#left p
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#left input{
+	margin-top:2px;
+	margin-bottom:5px;
+	border-radius:5px;
+	background-color:#ffffff;
+	width:200px;
+	padding:5px 5px;
+	box-sizing: border-box;
+	border:1px solid #d6d6d6;
+}
+#left input:focus
+{
+	background-color:#e4e4e4;
+	border:1px solid #d6d6d6;
+}
+#right{
+	width:60%;
+	height:550px;
+	float:left;
+	background-image:url("../image/join_hands1.png");
+	background-repeat:no-repeat;
+	background-position:10px 10px;
+}
+#right h3
+{
+	margin-top:450px;
+	margin-left:200px;
+}
+#copy
+{
+	width:100%;
+	height:50px;
+	float:left;
+	background-color:#424144;
+	color:white;
+}
+#copy p
+{
+	font-family:sans-serif;
+	text-align:center;
+}

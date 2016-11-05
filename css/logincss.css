@@ -1,0 +1,94 @@
+body{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:gray;
+	font-family:sans-serif;
+}
+#wrapper{
+	width:100%;
+	height:auto;
+	background-color:#777777;
+}
+#header{
+	width:100%;
+	position:fixed;
+}
+#menu{
+	width:100%;
+	height:50px;
+	background-color:#1976d2;
+	float:left;
+	font-family:Sans-serif;
+}
+#menu ul
+{
+	float:right;
+	margin-top:0px;
+}
+#header ul a{
+	float:left;
+}
+#header ul li{
+	float:left;
+	list-style-type:none;
+	width:110px;
+	text-align:center;
+	padding-top:16px;
+	padding-bottom:16px;
+	font-family:sans-serif;
+	color:white;
+}
+#header ul li:hover
+{
+	background-color:white;
+	color:black;
+}
+#blank{
+	width:100%px;
+	height:50px;
+}
+#content
+{
+	width:100%;
+	height:550px;
+	background-color:white;
+}
+form{
+	width:500px;
+	height:300px;
+	background-color:#8b9ec1;
+	border-radius:10px;
+	float:left;
+	margin-left:400px;
+	margin-top:130px;
+}
+form input
+{
+	padding:5px 5px;
+	box-sizing: border-box;
+	border:1px solid #d6d6d6;
+}
+#img
+{
+	width:150px;
+	height:150px;
+	background-image:url("../image/loginicon.png");
+	border-radius:70px;
+	margin-left:175px;
+	margin-top:-100px;
+}
+#copy
+{
+	width:100%;
+	height:50px;
+	float:left;
+	background-color:#424144;
+	color:white;
+}
+#copy p
+{
+	font-family:sans-serif;
+	text-align:center;
+}
